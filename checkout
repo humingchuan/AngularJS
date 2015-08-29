@@ -1,0 +1,12 @@
+workTree      index         reposity
+      ->add          ->commit
+
+
+reset 撤销add 但是仓库不会变化
+reset --soft 撤销commit，同时仓库也会变化
+reset --hard 撤销所有改动
+
+
+git checkout -- filename 是从暂存区中取出文件覆盖到工作目录
+git checkout  tag/commitID/branchName [--filename] 切换到一个标记时的状态，或者某个提交，或者某个分支。
+回到刚才的分支方法为  git checkout 刚才的分支名
